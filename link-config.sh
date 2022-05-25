@@ -1,0 +1,5 @@
+ln -s ~/.config-files/.zshrc ~/.zshrc
+ln -s ~/.config-files/.gitconfig ~/.gitconfig
+ln -s ~/.config-files/.gitconfig-private ~/.gitconfig-private
+ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
+
