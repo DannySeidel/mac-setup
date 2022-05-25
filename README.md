@@ -1,6 +1,6 @@
 # Config-Files
 
-This Repo contains my config files for setting up an new Mac.
+This Repo contains my config files for setting up a new Mac.
 
 ## Steps
 
@@ -18,6 +18,8 @@ git clone git@github.com:DannySeidel/.config-files.git
 ```shell
 ln -s ~/.config-files/.zshrc ~/.zshrc
 ln -s ~/.config-files/.gitconfig ~/.gitconfig
+ln -s ~/.config-files/.gitconfig-private ~/.gitconfig-private
+ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
 ```
 
 ### 4. Install Brew and all software listed in the Brewfile:
