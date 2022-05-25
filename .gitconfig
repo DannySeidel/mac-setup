@@ -1,0 +1,6 @@
+[includeIf "gitdir:~/development/private/"]
+	path = ~/.gitconfig-private
+[includeIf "gitdir:~/development/dhbw/"]
+	path = ~/.gitconfig-private
+[includeIf "gitdir:~/development/gitlab/"]
+  	path = ~/.gitconfig-work
