@@ -2,6 +2,12 @@
 
 This Repo contains my config files for setting up a new Mac.
 
+## Setup
+To run all listed steps, download and execute the `mac-setup.sh` file with:
+```shell
+bash mac-setup.sh
+```
+
 ## Steps
 
 ### 1. Install Apple Command Line Tools:
