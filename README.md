@@ -1,4 +1,4 @@
-# Config-Files
+# Mac-Setup
 
 This Repo contains my config files for setting up a new Mac.
 
@@ -11,7 +11,7 @@ xcode-select --install
 
 ### 2. Clone this git Repo:
 ```shell
-git clone git@github.com:DannySeidel/.config-files.git
+git clone git@github.com:DannySeidel/mac-setup.git ~/.config-files
 ```
 
 ### 3. Create symlinks in the home directory to the files in the repo:
@@ -29,4 +29,7 @@ ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
 
 # Install listed software via brew
 brew bundle --file ~/.dotfiles/Brewfile
+
+# Clear brew cache
+brew cleanup --prune=all
 ```
