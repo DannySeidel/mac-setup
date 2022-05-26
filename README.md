@@ -49,7 +49,7 @@ ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install listed software via brew
-brew bundle --file ~/.dotfiles/Brewfile
+brew bundle --file ~/.config-files/Brewfile
 
 # Clear brew cache
 brew cleanup --prune=all
