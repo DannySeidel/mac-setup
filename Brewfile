@@ -20,7 +20,6 @@ brew "ffmpeg"
 brew "awscli"
 
 # Casks
-cask "bitwarden"
 cask "cheatsheet"
 cask "intellij-idea"
 cask "pycharm"
@@ -48,6 +47,7 @@ cask "whatsapp"
 
 # Mac App Store
 mas "Xcode", id: 497799835
+mas "Bitwarden", id: 1352778147
 mas "AdBlock", id: 1402042596
 mas "Bakery", id: 1575220747
 mas "Debit & Credit", id: 882637653
