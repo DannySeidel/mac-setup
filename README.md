@@ -1,6 +1,6 @@
 # Mac-Setup
 
-This Repo contains my config files for setting up a new Mac.
+This repo contains my config files for setting up a new Mac.
 
 ## Setup
 To run all listed steps, download and execute the `mac-setup.sh` file with:
@@ -9,7 +9,7 @@ bash mac-setup.sh
 ```
 Note that SSH is used to clone the repo. That means you should have set up a SSH key for github, otherwise it will not work.
 
-If you haven't set up a SSH key yet, you can do so following the instructions under this link: [Generating a new SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+If you haven't set up a SSH key yet, you can do so following the instructions under this link: [Generating a SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 If you don't want to use a SSH key, consider using HTTPS for cloning the repo.
 
