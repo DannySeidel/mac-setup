@@ -20,6 +20,7 @@ brew "ffmpeg"
 brew "awscli"
 
 # Casks
+cask "bitwarden"
 cask "cheatsheet"
 cask "intellij-idea"
 cask "pycharm"
@@ -44,3 +45,18 @@ cask "microsoft-word"
 cask "nordvpn"
 cask "notion"
 cask "whatsapp"
+
+# Mac App Store
+mas "Xcode", id: 497799835
+mas "AdBlock", id: 1402042596
+mas "Bakery", id: 1575220747
+mas "Debit & Credit", id: 882637653
+mas "Honey", id: 1472777122
+mas "Hush", id: 1544743900
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Notability", id: 360593530
+mas "Parcel", id: 639968404
+mas "Shazam", id: 897118787
+mas "TestFlight", id: 899247664
+
