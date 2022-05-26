@@ -1,3 +1,3 @@
-bash link-config.sh
-bash install-software.sh
+bash ~/.config-files/link-config.sh
+bash ~/.config-files/install-software.sh
 
