@@ -14,7 +14,15 @@ xcode-select --install
 git clone git@github.com:DannySeidel/mac-setup.git ~/.config-files
 ```
 
-### 3. Create symlinks in the home directory to the files in the repo:
+### 3. Run setup script:
+```shell
+bash ~/.config-files/setup.sh
+```
+The script runs the following:
+
+`bash ~/.config-files/link-config.sh` to create symlinks in the home directory to the files in the repo.
+
+`link-config.sh` looks like this:
 ```shell
 ln -s ~/.config-files/.zshrc ~/.zshrc
 ln -s ~/.config-files/.gitconfig ~/.gitconfig
@@ -22,7 +30,9 @@ ln -s ~/.config-files/.gitconfig-private ~/.gitconfig-private
 ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
 ```
 
-### 4. Install Brew and all software listed in the Brewfile:
+`bash ~/.config-files/install-software.sh` to install Brew and all software listed in the Brewfile.
+
+`install-software.sh` looks like this:
 ```shell
 # Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
