@@ -15,3 +15,7 @@
 	process = git-lfs filter-process
 	required = true
 
+[user]
+	signingkey = 870474232A26F7F2
+[commit]
+	gpgsign = true

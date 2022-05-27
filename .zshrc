@@ -16,3 +16,4 @@ export HISTFILESIZE=20000
 export PATH="/usr/local/sbin:$PATH"
 export LANGUAGE='en_US.UTF-8 git'
 
+export GPG_TTY=$(tty)
