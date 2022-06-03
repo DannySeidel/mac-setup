@@ -1,12 +1,8 @@
 alias python=python3
 alias pdg='cd ~/development/gitlab/porsche-digital/'
 
-alias gitc='git commit -m'
-alias gits='git status'
-alias gita='git add .'
-alias gitps='git push origin'
-alias gitpl='git pull origin'
-alias gitd='git diff'
+# import git aliases
+source ~/.config-files/git_aliases
 
 PROMPT='%3~ %# ' 
 export HISTTIMEFORMAT='%F, %T '
