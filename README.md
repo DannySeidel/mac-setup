@@ -56,6 +56,9 @@ ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
 # Install listed software via brew
 brew bundle --file ~/.config-files/Brewfile
 
+# Install p10k
+brew install romkatv/powerlevel10k/powerlevel10k
+
 # Clear brew cache
 brew cleanup --prune=all
 ```
