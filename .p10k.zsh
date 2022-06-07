@@ -85,7 +85,7 @@
     google_app_cred         # google application credentials (https://cloud.google.com/docs/authentication/production)
     toolbox                 # toolbox name (https://github.com/containers/toolbox)
     context                 # user@hostname
-    nordvpn                 # nordvpn connection status, linux only (https://nordvpn.com/)
+    # nordvpn               # nordvpn connection status, linux only (https://nordvpn.com/)
     ranger                  # ranger shell (https://github.com/ranger/ranger)
     nnn                     # nnn shell (https://github.com/jarun/nnn)
     xplr                    # xplr shell (https://github.com/sayanarijit/xplr)
@@ -96,7 +96,7 @@
     vpn_ip                  # virtual private network indicator
     # load                  # CPU load
     # disk_usage            # disk usage
-    ram                     # free RAM
+    # ram                   # free RAM
     # swap                  # used swap
     todo                    # todo items (https://github.com/todotxt/todo.txt-cli)
     timewarrior             # timewarrior tracking status (https://timewarrior.net/)
@@ -104,7 +104,7 @@
     # time                  # current time
     ip                      # ip address and bandwidth usage for a specified network interface
     wifi                    # wifi speed
-    # battery               # internal battery
+    battery                 # internal battery
     # =========================[ Line #2 ]=========================
     newline                 # \n
     # public_ip             # public IP address
