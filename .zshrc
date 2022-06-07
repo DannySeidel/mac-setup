@@ -7,6 +7,10 @@ alias tree='lsd --tree'
 # import git aliases
 source ~/.config-files/git_aliases
 
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
 PROMPT='%3~ %# ' 
 export HISTTIMEFORMAT='%F, %T '
 export HISTSIZE=20000

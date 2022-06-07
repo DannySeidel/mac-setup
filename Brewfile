@@ -3,6 +3,9 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 # Formulae
+brew "zsh-autosuggestions"
+brew "zsh-fast-syntax-highlighting"
+brew "zsh-history-substring-search"
 brew "python@3.9"
 brew "python@3.10"
 brew "gh"
