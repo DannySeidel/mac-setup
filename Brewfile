@@ -23,6 +23,8 @@ brew "ffmpeg"
 brew "awscli"
 
 # Casks
+cask "iterm2"
+cask "font-hack-nerd-font"
 cask "cheatsheet"
 cask "adobe-creative-cloud"
 cask "intellij-idea"
