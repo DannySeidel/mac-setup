@@ -3,6 +3,7 @@ alias py=python
 alias pdg='cd ~/development/gitlab/porsche-digital/'
 alias ls=lsd
 alias tree='lsd --tree'
+alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
 # import git aliases
 source ~/.config-files/git_aliases
@@ -15,6 +16,10 @@ fd() {
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 PROMPT='%3~ %# ' 
 export HISTTIMEFORMAT='%F, %T '
