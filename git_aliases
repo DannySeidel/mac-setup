@@ -1,5 +1,5 @@
 alias gs='git status'
-alias gd='git diff'
+alias gd='fd HEAD'
 alias ga='git add'
 alias gaa='git add .'
 alias gc='git commit -m'

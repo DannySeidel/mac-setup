@@ -7,6 +7,11 @@ alias tree='lsd --tree'
 # import git aliases
 source ~/.config-files/git_aliases
 
+fd() {
+  preview="git diff $@ --color=always -- {-1}"
+  git diff $@ --name-only | fzf -m --ansi --preview $preview
+}
+
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
