@@ -1,10 +1,5 @@
-alias python=python3
-alias py=python
-alias rf='rm -rf'
-alias pdg='cd ~/development/gitlab/porsche-digital/'
-alias ls=lsd
-alias tree='lsd --tree'
-alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
+# import zsh aliases
+source ~/.config-files/zsh_aliases
 
 # import git aliases
 source ~/.config-files/git_aliases
