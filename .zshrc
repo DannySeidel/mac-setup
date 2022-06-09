@@ -1,5 +1,6 @@
 alias python=python3
 alias py=python
+alias rf='rm -rf'
 alias pdg='cd ~/development/gitlab/porsche-digital/'
 alias ls=lsd
 alias tree='lsd --tree'
