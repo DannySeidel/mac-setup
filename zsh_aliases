@@ -1,7 +1,22 @@
-alias py=python
-alias rf='rm -rf'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd../../..'
 alias pdg='cd ~/development/gitlab/porsche-digital/'
-alias ls=lsd
-alias tree='lsd --tree'
 alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
+
+alias rf='rm -rf'
+alias ls='lsd'
+alias tree='lsd --tree'
+
+alias bs='brew search'
+alias bin='brew info'
+alias bi='brew install'
+alias bui='brew uninstall'
+alias bc='brew cleanup --prune=all'
+alias bo='brew outdated'
+alias bup='brew update'
+alias bu='brew upgrade'
+
+alias python=python3
+alias py=python
 
