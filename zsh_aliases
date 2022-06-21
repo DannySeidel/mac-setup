@@ -20,3 +20,5 @@ alias bu='brew upgrade'
 alias python=python3
 alias py=python
 
+alias cheat='bat ~/.config-files/zsh_aliases'
+
