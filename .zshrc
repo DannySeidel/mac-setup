@@ -22,6 +22,7 @@ export HISTTIMEFORMAT='%F, %T '
 export HISTSIZE=20000
 export HISTFILESIZE=20000
 
+export HOMEBREW_EDITOR=vim
 export PATH="/usr/local/sbin:$PATH"
 export LANGUAGE='en_US.UTF-8 git'
 
