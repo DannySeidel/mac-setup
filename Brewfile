@@ -12,7 +12,7 @@ brew "fzf"
 brew "gh"
 brew "git"
 brew "gpg"
-brew "vim"
+brew "nvim"
 brew "tig"
 brew "lsd"
 brew "ranger"
@@ -41,10 +41,13 @@ cask "jdownloader"
 cask "discord"
 cask "lrtimelapse"
 cask "docker"
-cask "dozer"
+cask "hiddenbar"
 cask "google-chrome"
 cask "firefox"
 cask "maccy"
+cask "airbuddy"
+cask "alt-tab"
+caks "raycast"
 cask "coconutbattery"
 cask "mactex"
 cask "mactracker"
@@ -70,4 +73,5 @@ mas "Notability", id: 360593530
 mas "Parcel", id: 639968404
 mas "Shazam", id: 897118787
 mas "TestFlight", id: 899247664
+mas "Hidden Bar", id: 1452453066
 
