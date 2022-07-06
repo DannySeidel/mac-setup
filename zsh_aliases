@@ -1,7 +1,8 @@
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ....='cd../../..'
-alias pdg='cd ~/development/gitlab/porsche-digital/'
+alias ....='cd ../../..'
+alias pdg='cd ~/development/work/porsche-digital/'
+alias finder='cd ~/development/work/porsche-digital/digital-sales/car-sales/finder'
 alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
 alias rf='rm -rf'
