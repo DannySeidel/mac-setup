@@ -23,4 +23,5 @@ alias python=python3
 alias py=python
 
 alias cheat='bat ~/.config-files/zsh_aliases'
+alias cheatg='bat ~/.config-files/git_aliases'
 

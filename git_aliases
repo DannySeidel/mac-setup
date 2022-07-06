@@ -19,8 +19,14 @@ alias grs='git reset --soft'
 alias grh='git reset --hard'
 alias grs1='git reset HEAD~1 --soft'
 alias grh1='git reset HEAD~1 --hard'
+
 alias gsh='git stash'
-alias gsp='git stash pop'
+alias gshp='git stash pop'
+alias gshl='git stash list'
+alias gshi='git stash info'
+alias gshd='git stash drop'
+alias gshc='git stash clear'
+
 
 alias gps='git push origin'
 alias gpl='git pull origin'
