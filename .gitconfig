@@ -2,7 +2,7 @@
 	path = ~/.gitconfig-private
 [includeIf "gitdir:~/development/dhbw/"]
 	path = ~/.gitconfig-private
-[includeIf "gitdir:~/development/gitlab/"]
+[includeIf "gitdir:~/development/work/"]
 	path = ~/.gitconfig-work
 
 [color]
