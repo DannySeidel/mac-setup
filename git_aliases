@@ -4,6 +4,7 @@ alias grea='git remote add origin'
 
 alias gs='git status'
 alias gd='fd HEAD'
+alias gsw='fd HEAD^ HEAD'
 alias ga='git add'
 alias gaa='git add .'
 alias gc='git commit -m'
