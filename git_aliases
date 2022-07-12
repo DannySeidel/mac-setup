@@ -1,4 +1,5 @@
 alias gi='git init'
+alias gcl='git clone'
 alias gre='git remote'
 alias grea='git remote add origin'
 
