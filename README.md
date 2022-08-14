@@ -29,11 +29,9 @@ xcode-select --install
 git clone git@github.com:DannySeidel/mac-setup.git ~/.config-files
 ```
 
-### 3. Run setup script:
-```shell
-bash ~/.config-files/setup.sh
-```
-The script runs the following:
+### 3. Run setup scripts:
+
+The scripts do the following:
 
 `bash ~/.config-files/link-config.sh` to create symlinks in the home directory to the files in the repo.
 
