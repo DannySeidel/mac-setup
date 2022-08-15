@@ -4,6 +4,7 @@ alias ....='cd ../../..'
 alias finder='cd ~/development/work/digital-sales/car-sales/finder'
 alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 
+alias c='clear'
 alias rf='rm -rf'
 alias ls='lsd'
 alias tree='lsd --tree'
