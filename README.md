@@ -9,7 +9,7 @@ This repo contains my config files for setting up a new Mac.
 ## Setup
 To run all listed steps, download and execute the `mac-setup.sh` file with:
 ```shell
-bash mac-setup.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DannySeidel/mac-setup/main/mac-setup.sh)"
 ```
 Note that SSH is used to clone the repo. That means you should have set up a SSH key for github, otherwise it will not work.
 
