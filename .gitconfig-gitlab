@@ -1,0 +1,6 @@
+[user]
+	name = Danny Seidel
+	email = accounts@dannyseidel.de
+[commit]
+	gpgsign = false
+

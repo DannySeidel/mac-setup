@@ -2,4 +2,6 @@
 	name = Danny Seidel
 	email = danny.seidel@porsche.digital
 	signingkey = BC8D649E30386B00
+[commit]
+	gpgsign = true
 

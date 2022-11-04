@@ -4,6 +4,8 @@
 	path = ~/.gitconfig-private
 [includeIf "gitdir:~/development/work/"]
 	path = ~/.gitconfig-work
+[includeIf "gitdir:~/development/gitlab/"]
+	path = ~/.gitconfig-gitlab
 
 [color]
 	ui = auto
@@ -14,8 +16,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[commit]
-	gpgsign = true
 [init]
 	defaultBranch = main
 
