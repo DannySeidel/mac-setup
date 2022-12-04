@@ -14,6 +14,7 @@ alias lla='lsd -la'
 alias tree='lsd --tree'
 alias fs='du -hs'
 
+alias upgrade='brew upgrade && brew cleanup --prune=all && mas upgrade'
 alias bs='brew search'
 alias bif='brew info'
 alias bi='brew install'
