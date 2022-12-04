@@ -80,6 +80,8 @@ mas "Bakery", id: 1575220747
 mas "Bitwarden", id: 1352778147
 mas "Color Peeker", id: 1592573138
 mas "Debit & Credit", id: 882637653
+mas "Health Auto Export", id: 1115567069
+mas "Hidden Bar", id: 1452453066
 mas "Hush", id: 1544743900
 mas "ICE Buddy", id: 1595947689
 mas "Keynote", id: 409183694
@@ -87,6 +89,7 @@ mas "Magnet", id: 441258766
 mas "Notability", id: 360593530
 mas "Parcel", id: 639968404
 mas "Pure Paste", id: 1611378436
+mas "rcmd", id: 1596283165
 mas "Refined GitHub", id: 1519867270
 mas "scaler", id: 1612708557
 mas "TestFlight", id: 899247664
