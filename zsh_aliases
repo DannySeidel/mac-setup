@@ -24,6 +24,7 @@ alias bc='brew cleanup --prune=all'
 alias bo='brew outdated'
 alias bup='brew update'
 alias bu='brew upgrade'
+alias buc='brew upgrade && brew cleanup --prune=all'
 
 alias python=python3
 alias py=python
