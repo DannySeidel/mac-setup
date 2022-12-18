@@ -1,3 +1,4 @@
+# navigation
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -5,6 +6,7 @@ alias finder='cd ~/development/work/digital-sales/car-sales/finder'
 alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 alias gdr='cd ~/Library/CloudStorage/GoogleDrive-danny.seidel02@gmail.com/My\ Drive'
 
+# shell
 alias c='clear'
 alias rf='rm -rf'
 alias ls='lsd'
@@ -14,6 +16,7 @@ alias lla='lsd -la'
 alias tree='lsd --tree'
 alias fs='du -hs'
 
+# brew
 alias upgrade='brew upgrade && brew cleanup --prune=all && mas upgrade'
 alias bs='brew search'
 alias bif='brew info'
@@ -26,6 +29,11 @@ alias bup='brew update'
 alias bu='brew upgrade'
 alias buc='brew upgrade && brew cleanup --prune=all'
 
+# metadata
+alias exif='exiftool'
+alias 'exif size'='exiftool -ImageSize {}0'
+
+# python
 alias python=python3
 alias py=python
 
