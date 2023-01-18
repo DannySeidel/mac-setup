@@ -30,5 +30,6 @@ alias gshd='git stash drop'
 alias gshc='git stash clear'
 
 
-alias gps='git push origin'
+alias gps='git push'
+alias gpss='git push --set-upstream origin'
 alias gpl='git pull origin'
