@@ -22,13 +22,14 @@ alias grh='git reset --hard'
 alias grs1='git reset HEAD~1 --soft'
 alias grh1='git reset HEAD~1 --hard'
 
+alias gm='git merge'
+
 alias gsh='git stash'
 alias gshp='git stash pop'
 alias gshl='git stash list'
 alias gshi='git stash info'
 alias gshd='git stash drop'
 alias gshc='git stash clear'
-
 
 alias gps='git push'
 alias gpss='git push --set-upstream origin'
