@@ -103,7 +103,7 @@
     taskwarrior             # taskwarrior task count (https://taskwarrior.org/)
     # time                  # current time
     ip                      # ip address and bandwidth usage for a specified network interface
-    wifi                    # wifi speed
+    # wifi                  # wifi speed
     battery                 # internal battery
     # =========================[ Line #2 ]=========================
     newline                 # \n
