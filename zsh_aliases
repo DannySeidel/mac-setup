@@ -2,7 +2,7 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias finder='cd ~/development/work/digital-sales/car-sales/finder'
+alias nft='cd ~/development/work/customer-innovation/nft'
 alias icl='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 alias gdr='cd ~/Library/CloudStorage/GoogleDrive-danny.seidel02@gmail.com/My\ Drive'
 
