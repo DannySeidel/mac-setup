@@ -8,6 +8,7 @@ alias gdr='cd ~/Library/CloudStorage/GoogleDrive-danny.seidel02@gmail.com/My\ Dr
 
 # shell
 alias c='clear'
+alias p='pnpm'
 alias rf='rm -rf'
 alias ls='lsd'
 alias ll='lsd -l'
