@@ -3,7 +3,5 @@
 	email = danny.seidel@porsche.digital
 	signingkey = BC8D649E30386B00
 [commit]
-	gpgsign = true
-[core]
-  sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/work -F /dev/null
+	gpgsign = false
 
