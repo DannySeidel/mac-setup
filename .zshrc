@@ -44,8 +44,7 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 eval $(thefuck --alias)
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-
 eval "$(rbenv init - zsh)"
 
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
