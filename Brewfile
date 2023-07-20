@@ -1,7 +1,6 @@
 tap "damascenorafael/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -45,7 +44,6 @@ brew "zsh-history-substring-search"
 brew "romkatv/powerlevel10k/powerlevel10k"
 
 # Casks
-cask "1password"
 cask "adobe-dng-converter"
 cask "adobe-creative-cloud"
 cask "airbuddy"
