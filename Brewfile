@@ -30,6 +30,7 @@ brew "mas"
 brew "neofetch"
 brew "neovim"
 brew "node"
+brew "pnpm"
 brew "pyenv"
 brew "python@3.9"
 brew "python@3.10"
@@ -37,12 +38,14 @@ brew "speedtest-cli"
 brew "thefuck"
 brew "unar"
 brew "vim"
+brew "yarn"
 brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting"
 brew "zsh-history-substring-search"
 brew "romkatv/powerlevel10k/powerlevel10k"
 
 # Casks
+cask "1password"
 cask "adobe-dng-converter"
 cask "adobe-creative-cloud"
 cask "airbuddy"
@@ -55,6 +58,7 @@ cask "discord"
 cask "docker"
 cask "drawio"
 cask "fig"
+cask "figma"
 cask "firefox"
 cask "font-hack-nerd-font"
 cask "google-chrome"
@@ -80,7 +84,6 @@ cask "notion"
 cask "postman"
 cask "pycharm"
 cask "raycast"
-cask "reminders-menubar"
 cask "sf-symbols"
 cask "visual-studio-code"
 cask "vlc"
@@ -94,7 +97,6 @@ mas "Debit & Credit", id: 882637653
 mas "Health Auto Export", id: 1115567069
 mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
 mas "Notability", id: 360593530
 mas "Parcel", id: 639968404
 mas "rcmd", id: 1596283165
