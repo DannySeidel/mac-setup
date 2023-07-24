@@ -1,7 +1,7 @@
 [user]
 	name = Danny Seidel
 	email = 69514484+DannySeidel@users.noreply.github.com
-	signingkey = 61F64298D889E9B1
+  signingkey = D7E644BDBEBD89FE
 [commit]
 	gpgsign = true
 

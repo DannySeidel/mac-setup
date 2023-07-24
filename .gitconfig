@@ -23,5 +23,3 @@
 	autoSetupRemote = true
 [pull]
 	rebase = true
-[user]
-	signingkey = D7E644BDBEBD89FE

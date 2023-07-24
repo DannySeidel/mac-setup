@@ -3,5 +3,3 @@
 	email = accounts@dannyseidel.de
 [commit]
 	gpgsign = false
-[core]
-  sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/gitlab -F /dev/null
