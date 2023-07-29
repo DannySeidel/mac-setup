@@ -38,11 +38,14 @@ export HISTTIMEFORMAT='%F, %T '
 export HISTSIZE=20000
 export HISTFILESIZE=20000
 
-export HOMEBREW_EDITOR=vim
 export PATH="/usr/local/sbin:$PATH"
 export LANGUAGE='en_US.UTF-8 git'
+export EDITOR='/opt/homebrew/bin/nvim'
+export HOMEBREW_EDITOR=nvim
 
 eval $(thefuck --alias)
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="/usr/local/bin/node:$PATH"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
