@@ -30,13 +30,19 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
+PROMPT='%3~ %# ' 
+export HISTTIMEFORMAT='%F, %T '
+export HISTSIZE=50000
+export HISTFILESIZE=50000
+
+# pyenv path
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 
-PROMPT='%3~ %# ' 
-export HISTTIMEFORMAT='%F, %T '
-export HISTSIZE=20000
-export HISTFILESIZE=20000
+# android path
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH="/usr/local/sbin:$PATH"
 export LANGUAGE='en_US.UTF-8 git'
