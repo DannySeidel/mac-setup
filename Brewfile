@@ -1,10 +1,19 @@
 tap "damascenorafael/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
+
+# Import
+brew "raycast"
+cask "arc"
+brew "mas"
+mas "Bitwarden", id: 1352778147
+brew "zsh-autosuggestions"
+brew "zsh-fast-syntax-highlighting"
+brew "zsh-history-substring-search"
+cask "font-hack-nerd-font"
+cask "iterm2"
 
 # Formulae
 brew "awscli"
@@ -25,7 +34,6 @@ brew "gnupg"
 brew "imagemagick"
 brew "lsd"
 brew "make"
-brew "mas"
 brew "neofetch"
 brew "neovim"
 brew "node"
@@ -38,9 +46,6 @@ brew "thefuck"
 brew "unar"
 brew "vim"
 brew "yarn"
-brew "zsh-autosuggestions"
-brew "zsh-fast-syntax-highlighting"
-brew "zsh-history-substring-search"
 brew "romkatv/powerlevel10k/powerlevel10k"
 
 # Casks
@@ -48,7 +53,6 @@ cask "adobe-dng-converter"
 cask "adobe-creative-cloud"
 cask "airbuddy"
 cask "anki"
-cask "arc"
 cask "coconutbattery"
 cask "datweatherdoe"
 cask "deepl"
@@ -58,13 +62,11 @@ cask "drawio"
 cask "fig"
 cask "figma"
 cask "firefox"
-cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "google-drive"
 cask "hammerspoon"
 cask "hiddenbar"
 cask "intellij-idea"
-cask "iterm2"
 cask "itsycal"
 cask "jdownloader"
 cask "key-codes"
@@ -81,7 +83,6 @@ cask "nordvpn"
 cask "notion"
 cask "postman"
 cask "pycharm"
-cask "raycast"
 cask "sf-symbols"
 cask "visual-studio-code"
 cask "vlc"
@@ -89,7 +90,6 @@ cask "whatsapp"
 
 # Mac App Store
 mas "Bakery", id: 1575220747
-mas "Bitwarden", id: 1352778147
 mas "Crouton", id: 1461650987
 mas "Debit & Credit", id: 882637653
 mas "Health Auto Export", id: 1115567069
