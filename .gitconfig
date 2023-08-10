@@ -18,8 +18,8 @@
 	required = true
 [init]
 	defaultBranch = main
-
 [push]
 	autoSetupRemote = true
 [pull]
-	rebase = true
+  rebase = true
+
