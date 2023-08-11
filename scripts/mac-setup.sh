@@ -9,5 +9,6 @@ echo "Cloning config files..."
 git clone git@github.com:DannySeidel/mac-setup.git ~/.config-files
 
 # Run setup
-bash ~/.config-files/link-config.sh
-bash ~/.config-files/install-software.sh
+bash ~/.config-files/scripts/link-config.sh
+bash ~/.config-files/scripts/configure-dock.sh
+bash ~/.config-files/scripts/install-software.sh

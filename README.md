@@ -9,7 +9,7 @@ This repo contains my config files for setting up a new Mac.
 ## Setup
 To run all listed steps, download and execute the `mac-setup.sh` file with:
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DannySeidel/mac-setup/main/mac-setup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DannySeidel/mac-setup/main/scripts/mac-setup.sh)"
 ```
 Note that SSH is used to clone the repo. That means you should have set up a SSH key for github, otherwise it will not work.
 
@@ -43,9 +43,9 @@ ln -s ~/.config-files/onehalf.vim ~/.vim/colors/onehalf.vim
 ln -s ~/.config-files/.vimrc ~/.vimrc
 ln -s ~/.config-files/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.config-files/.zshrc ~/.zshrc
-ln -s ~/.config-files/.gitconfig ~/.gitconfig
-ln -s ~/.config-files/.gitconfig-private ~/.gitconfig-private
-ln -s ~/.config-files/.gitconfig-work ~/.gitconfig-work
+ln -s ~/.config-files/git/.gitconfig ~/.gitconfig
+ln -s ~/.config-files/git/.gitconfig-private ~/.gitconfig-private
+ln -s ~/.config-files/git/.gitconfig-work ~/.gitconfig-work
 ```
 
 `bash ~/.config-files/install-software.sh` to install Brew and all software listed in the Brewfile.
