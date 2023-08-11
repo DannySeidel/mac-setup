@@ -1,9 +1,6 @@
 # /bin/bash
 
 echo "Linking config files..."
-mkdir -p ~/.config/nvim
-ln -s ~/.config-files/init.vim ~/.config/nvim/init.vim
-
 ln -s ~/.config-files/.vimrc ~/.vimrc
 ln -s ~/.config-files/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.config-files/.zshrc ~/.zshrc

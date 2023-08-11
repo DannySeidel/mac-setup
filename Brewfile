@@ -44,7 +44,6 @@ brew "python@3.10"
 brew "speedtest-cli"
 brew "thefuck"
 brew "unar"
-brew "vim"
 brew "yarn"
 brew "romkatv/powerlevel10k/powerlevel10k"
 
