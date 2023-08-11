@@ -1,0 +1,63 @@
+{
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[latex]": {
+		"editor.formatOnSave": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"dart.openDevTools": "flutter",
+	"diffEditor.wordWrap": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.formatOnSave": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.minimap.enabled": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": {
+					"foreground": "#777c87"
+				}
+			}
+		]
+	},
+	"editor.wordWrap": "on",
+	"files.autoSave": "afterDelay",
+	"github.copilot.enable": {
+		"*": true,
+		"markdown": false,
+		"plaintext": true,
+		"scminput": false
+	},
+	"python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"workbench.colorCustomizations": {
+		"editor.background": "#1d1f24",
+		"gitlens.trailingLineForegroundColor": "#777c87",
+		"sideBar.background": "#1d1f24",
+		"tree.indentGuidesStroke": "#0080ff"
+	},
+	"workbench.colorTheme": "onehalf-dark",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 12,
+	"workbench.tree.renderIndentGuides": "always"
+}

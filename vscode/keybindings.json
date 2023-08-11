@@ -1,0 +1,10 @@
+[
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.action.sourceAction",
+        "args": {
+            "kind": "source.addMissingImports",
+            "apply": "first"
+        }
+    }
+]
