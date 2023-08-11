@@ -9,6 +9,8 @@ brew "raycast"
 cask "arc"
 brew "mas"
 mas "Bitwarden", id: 1352778147
+mas "rcmd", id: 1596283165
+brew "neovim"
 brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting"
 brew "zsh-history-substring-search"
@@ -35,7 +37,6 @@ brew "imagemagick"
 brew "lsd"
 brew "make"
 brew "neofetch"
-brew "neovim"
 brew "node"
 brew "pnpm"
 brew "pyenv"
@@ -96,7 +97,6 @@ mas "Hidden Bar", id: 1452453066
 mas "Keynote", id: 409183694
 mas "Notability", id: 360593530
 mas "Parcel", id: 639968404
-mas "rcmd", id: 1596283165
 mas "Scaler", id: 1612708557
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
