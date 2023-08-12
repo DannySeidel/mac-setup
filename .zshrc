@@ -16,10 +16,10 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # import zsh aliases
-source ~/.config-files/zsh_aliases
+source ~/.config-files/aliases/zsh_aliases
 
 # import git aliases
-source ~/.config-files/git_aliases
+source ~/.config-files/aliases/git_aliases
 
 fd() {
   preview="git diff $@ --color=always -- {-1}"
