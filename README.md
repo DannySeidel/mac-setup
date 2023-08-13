@@ -33,19 +33,54 @@ git clone git@github.com:DannySeidel/mac-setup.git ~/.config-files
 
 The scripts do the following:
 
-`bash ~/.config-files/link-config.sh` to create symlinks in the home directory to the files in the repo.
+`bash ~/.config-files/scripts/link-config.sh` to create symlinks in the home directory to the files in the repo.
 
 `link-config.sh` looks like this:
 ```shell
+# Terminal config files
 ln -s ~/.config-files/.vimrc ~/.vimrc
 ln -s ~/.config-files/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.config-files/.zshrc ~/.zshrc
+ln -s ~/.config-files/.hushlogin ~/.hushlogin
+
+# vscode config files
+ln -s ~/.config-files/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.config-files/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+
+# Path specific git config
 ln -s ~/.config-files/git/.gitconfig ~/.gitconfig
 ln -s ~/.config-files/git/.gitconfig-private ~/.gitconfig-private
 ln -s ~/.config-files/git/.gitconfig-work ~/.gitconfig-work
+ln -s ~/.config-files/git/.gitconfig-gitlab ~/.gitconfig-gitlab
 ```
 
-`bash ~/.config-files/install-software.sh` to install Brew and all software listed in the Brewfile.
+`bash ~/.config-files/scripts/configure-dock.sh` to configure the Dock to my preferences:
+
+`configure-dock.sh` looks like this:
+```shell
+# Set the scale effect for `Command + M`
+defaults write com.apple.dock mineffect scale
+
+# Set the Dock to hide automatically
+defaults write com.apple.dock autohide -bool true
+
+# Set the icon size to 48
+defaults write com.apple.dock tilesize -integer 48
+
+# Set the hover icon size to 64
+defaults write com.apple.dock largesize -float 64
+
+# Disable the Dock animation
+defaults write com.apple.dock launchanim -bool false
+
+# Delay the Dock appearance by 3 seconds
+defaults write com.apple.dock autohide-delay -float 3
+
+# Restart the Dock
+killall Dock
+```
+
+`bash ~/.config-files/scripts/install-software.sh` to install Brew and all software listed in the Brewfile.
 
 `install-software.sh` looks like this:
 ```shell
