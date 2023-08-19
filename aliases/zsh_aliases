@@ -34,6 +34,9 @@ alias buc='brew upgrade && brew cleanup --prune=all'
 alias exif='exiftool'
 alias 'exif size'='exiftool -ImageSize {}0'
 
+# automations
+alias ft='bash ~/.config-files/automations/change-filetype.sh'
+
 # python
 alias python=python3
 alias py=python
