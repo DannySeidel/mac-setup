@@ -54,7 +54,7 @@ ln -s ~/.config-files/git/.gitconfig-work ~/.gitconfig-work
 ln -s ~/.config-files/git/.gitconfig-gitlab ~/.gitconfig-gitlab
 ```
 
-`bash ~/.config-files/scripts/configure-dock.sh` to configure the Dock and Menu bar to my preferences:
+`bash ~/.config-files/scripts/configure-dock.sh` to configure the Dock to my preferences:
 
 `configure-dock.sh` looks like this:
 ```shell
@@ -78,15 +78,6 @@ defaults write com.apple.dock autohide-delay -float 3
 
 # Restart the Dock
 killall Dock
-
-# Always show the Menu bar in full screen (may require logout or restart)
-defaults write NSGlobalDomain _HIHideMenuBar -bool false
-
-# Enable autohide for the Menu bar in arc
-defaults write company.thebrowser.Browser AppleMenuBarVisibleInFullscreen -bool false
-
-# Quit and reopen Arc to apply changes
-killall Arc; open -a Arc
 ```
 
 `bash ~/.config-files/scripts/install-software.sh` to install Brew and all software listed in the Brewfile.
@@ -104,4 +95,19 @@ brew install romkatv/powerlevel10k/powerlevel10k
 
 # Clear brew cache
 brew cleanup --prune=all
+```
+
+`bash ~/.config-files/scripts/configure-menubar.sh` to configure the Menu bar to my preferences:
+
+`configure-menubar.sh` looks like this:
+
+```shell
+# Always show the Menu bar in full screen (may require logout or restart)
+defaults write NSGlobalDomain _HIHideMenuBar -bool false
+
+# Enable autohide for the Menu bar in arc
+defaults write company.thebrowser.Browser AppleMenuBarVisibleInFullscreen -bool false
+
+# Quit and reopen Arc to apply changes
+killall Arc; open -a Arc
 ```
