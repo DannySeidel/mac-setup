@@ -103,11 +103,13 @@ brew cleanup --prune=all
 
 ```shell
 # Always show the Menu bar in full screen (may require logout or restart)
+echo "Configuring Menu bar..."
 defaults write NSGlobalDomain _HIHideMenuBar -bool false
 
-# Enable autohide for the Menu bar in arc
-defaults write company.thebrowser.Browser AppleMenuBarVisibleInFullscreen -bool false
+# hide the Menu bar in the TV app and Arc
+defaults write com.apple.TV AppleMenuBarVisibleInFullscreen -bool false
+killall TV
 
-# Quit and reopen Arc to apply changes
+defaults write company.thebrowser.Browser AppleMenuBarVisibleInFullscreen -bool false
 killall Arc; open -a Arc
 ```
