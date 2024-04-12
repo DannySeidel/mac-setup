@@ -49,3 +49,5 @@ export HOMEBREW_EDITOR=nvim
 eval $(thefuck --alias)
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="/usr/local/bin/node:$PATH"
+
+eval "$(zoxide init --cmd cd zsh)"

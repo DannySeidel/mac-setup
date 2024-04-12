@@ -13,6 +13,7 @@ brew "neovim"
 brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting"
 brew "zsh-history-substring-search"
+brew "zoxide"
 cask "font-hack-nerd-font"
 cask "warp"
 
