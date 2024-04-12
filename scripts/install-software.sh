@@ -8,9 +8,9 @@ echo "Installing brew..."
 echo "Installing Brewfile contents..."
 brew bundle --file ~/.config-files/Brewfile
 
-# Install p10k
-echo "Installing p10k..."
-brew install romkatv/powerlevel10k/powerlevel10k
+# Install NvChad
+echo "Installing NvChad..." 
+git clone https://github.com/NvChad/starter ~/.config/nvim
 
 # Clear brew cache
 echo "Cleaning brew cache..."
