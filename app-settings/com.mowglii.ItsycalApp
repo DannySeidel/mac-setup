@@ -1,0 +1,11 @@
+{
+    "HideIcon": 0,
+    "MenuBarIconType": 1,
+    "ShowDayOfWeekInIcon": 1,
+    "ShowEventDays": 5,
+    "ShowLocation": 1,
+    "ShowMonthInIcon": 1,
+    "ShowWeeks": 1,
+    "SizePreference": 1
+}
+
