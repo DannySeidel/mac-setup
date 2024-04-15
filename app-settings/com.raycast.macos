@@ -1,0 +1,13 @@
+{
+    "NSStatusItem Visible raycastIcon": 0,
+    "aiChatHotkeyDismissed": 1,
+    "emojiPicker_skinTone": "light",
+    "navigationCommandStyleIdentifierKey": "vim",
+    "pageNavigationCommandKeysIdentifierKey": "arrows",
+    "raycastAI_deleteChatDisableConfirmation": 1,
+    "raycastAI_lastSelectedChatModel": "openai-gpt-4-turbo",
+    "raycastCurrentThemeId": "4DED2A35-443B-48D1-A7CA-C4B1856022B2",
+    "raycastPreferredWindowMode": "compact",
+    "raycastShouldFollowSystemAppearance": 0,
+    "raycastUI_preferredTextSize": "large"
+}
