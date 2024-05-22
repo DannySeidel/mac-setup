@@ -46,8 +46,11 @@ export LANGUAGE='en_US.UTF-8 git'
 export EDITOR='/opt/homebrew/bin/nvim'
 export HOMEBREW_EDITOR=nvim
 
-eval $(thefuck --alias)
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="/usr/local/bin/node:$PATH"
 
+eval $(thefuck --alias)
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(fzf --zsh)"
+
+PATH=~/.console-ninja/.bin:$PATH
