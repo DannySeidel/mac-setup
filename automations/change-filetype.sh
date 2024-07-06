@@ -20,6 +20,6 @@ for file in *$src_type; do
     echo "Converting $file to $base_name$tgt_type"
 
     # Convert the file to the target file type
-    convert "$file" "$base_name$tgt_type"
+    magick "$file" "$base_name$tgt_type"
 done
 
