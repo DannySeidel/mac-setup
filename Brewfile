@@ -18,7 +18,6 @@ cask "font-hack-nerd-font"
 cask "warp"
 
 # Formulae
-brew "awscli"
 brew "bat"
 brew "bitwarden-cli"
 brew "btop"
@@ -52,7 +51,6 @@ cask "adobe-dng-converter"
 cask "adobe-creative-cloud"
 cask "airbuddy"
 cask "anki"
-cask "coconutbattery"
 cask "datweatherdoe"
 cask "deepl"
 cask "discord"
@@ -95,4 +93,5 @@ mas "Parcel", id: 639968404
 mas "Scaler", id: 1612708557
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
+mas "Xnip", id: 1221250572
 
