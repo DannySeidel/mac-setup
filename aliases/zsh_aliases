@@ -41,6 +41,6 @@ alias ft='bash ~/.config-files/automations/change-filetype.sh'
 alias python=python3
 alias py=python
 
-alias cheat='bat ~/.config-files/zsh_aliases'
-alias cheatg='bat ~/.config-files/git_aliases'
+alias cheat='bat ~/.config-files/aliases/zsh_aliases'
+alias cheatg='bat ~/.config-files/aliases/git_aliases'
 
