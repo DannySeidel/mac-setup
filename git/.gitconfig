@@ -1,12 +1,9 @@
-[includeIf "gitdir:~/development/private/"]
-	path = ~/.gitconfig-private
-[includeIf "gitdir:~/development/dhbw/"]
-	path = ~/.gitconfig-private
-[includeIf "gitdir:~/development/work/"]
-	path = ~/.gitconfig-work
-[includeIf "gitdir:~/development/gitlab/"]
-	path = ~/.gitconfig-gitlab
-
+[user]
+	name = Danny Seidel
+	email = 69514484+DannySeidel@users.noreply.github.com
+  signingkey = 8CF81262232ABD0A09CD56572097910E23314D95
+[commit]
+	gpgsign = true
 [color]
 	ui = auto
 [alias]
