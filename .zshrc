@@ -18,11 +18,6 @@ source ~/.config-files/aliases/zsh_aliases
 # import git aliases
 source ~/.config-files/aliases/git_aliases
 
-fd() {
-  preview="git diff $@ --color=always -- {-1}"
-  git diff $@ --name-only | fzf -m --ansi --preview $preview
-}
-
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
@@ -31,6 +26,9 @@ PROMPT='%3~ %# '
 export HISTTIMEFORMAT='%F, %T '
 export HISTSIZE=50000
 export HISTFILESIZE=50000
+
+#forgit
+[ -f $HOMEBREW_PREFIX/share/forgit/forgit.plugin.zsh ] && source $HOMEBREW_PREFIX/share/forgit/forgit.plugin.zsh
 
 # pyenv path
 export PYENV_ROOT="$HOME/.pyenv"
@@ -54,3 +52,16 @@ eval "$(zoxide init --cmd cd zsh)"
 eval "$(fzf --zsh)"
 
 PATH=~/.console-ninja/.bin:$PATH
+
+# ruby path
+export PATH="$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init -)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
