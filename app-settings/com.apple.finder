@@ -1,0 +1,14 @@
+{
+  "FXArrangeGroupViewBy": "Name",
+  "FXPreferredGroupBy": "Name",
+  "FXPreferredViewStyle": "icnv",
+  "ShowExternalHardDrivesOnDesktop": 1,
+  "ShowHardDrivesOnDesktop": 0,
+  "ShowMountedServersOnDesktop": 0,
+  "ShowPathbar": 1,
+  "ShowRemovableMediaOnDesktop": 1,
+  "ShowSidebar": 1,
+  "ShowStatusBar": 1,
+  "SidebarShowingiCloudDesktop": 0,
+  "SidebarWidth": 250
+}
