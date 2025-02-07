@@ -14,3 +14,5 @@ ln -s ~/.config-files/git/.gitconfig-private ~/.gitconfig-private
 ln -s ~/.config-files/git/.gitconfig-work ~/.gitconfig-work
 ln -s ~/.config-files/git/.gitconfig-gitlab ~/.gitconfig-gitlab
 
+ln -s ~/.config-files/karabiner ~/.config/karabiner
+
